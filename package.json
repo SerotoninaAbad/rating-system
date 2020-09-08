@@ -46,7 +46,8 @@
   "lint-staged": {
     "**/*.{ts,tsx,js}": [
       "prettier --config .prettierrc --write",
-      "eslint --ext .ts,.tsx"
+      "eslint --ext .ts,.tsx",
+      "jest"
     ]
   },
   "husky": {
